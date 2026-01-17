@@ -1,0 +1,545 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   margin: 0;
+   padding: 0;
+   background-color: rgb(44, 54, 38);
+   color: white;
+   font-family: sans-serif;
+}
+.container{
+   max-width: 1400px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+}
+.top-title-container{
+    background: rgb(30, 30, 64);
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding: 5px 5px;
+}
+.top-title{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   height: 40px;
+   width: 80%;
+   margin: auto;
+}
+.img{
+   height: 40px;
+   width: 40px;
+}
+.bottom-title-container{
+ background-color: rgb(1, 1, 27);
+  color: lightgrey;
+ 
+}
+.bottom-title-container div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+ 
+}
+.bottom-title-container div h1{
+   margin-left: 3px;
+   margin-right: 1%
+}
+.login-container{
+   background-color: rgb(234, 234, 234);
+   height: 455px;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.login-container .login-form{
+   height: 200px;
+   border: 1px solid rgb(210, 210, 210);
+   padding: 15px;
+   width: 28%;
+   border-radius: 10px;
+   background-color: rgb(244, 244, 244);
+   box-shadow: 1px 2px 5px 2px lightgrey;
+}
+.login-form p{
+   font-weight: bold;
+   font-size: 14px;
+   margin-bottom: 2px;
+}
+.bottom-text-container{
+   height: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(1, 1, 27);
+   padding: 10px 5px;
+}
+.bottom-text-container h3{
+  font-weight: lighter;
+  font-size: 17px;
+  color: lightgrey;
+}
+
+.login-form div{
+   height: 23px;
+   border-radius: 5px;
+   margin-bottom: 5px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+
+}
+.login-form div input{
+   height: 100%;
+   width: 100%;
+   padding: 7px;
+   border-radius: 5px;
+   border: 1px solid lightgrey;
+   font-size: 13px;
+}
+.button-container{
+   margin-top: 20px;
+  
+  
+}
+.button-container button{
+   width: 46%;
+   height: 100%;
+   font-weight: bold;
+   font-size: 13px;
+   border-radius: 3px;
+   border: 1px solid lightgrey;
+   margin: auto;
+
+}
+#login{
+   background-color: rgb(30, 144, 30);
+   color: white;
+}
+#admin_login{
+   background-color: rgb(210, 67, 67);
+   color: white;
+}
+#login:hover{
+   background-color: rgb(25, 119, 25);
+   color: white;
+}
+#admin_login:hover{
+   background-color: rgb(183, 55, 55);
+   color: white;
+}
+#login:active{
+   opacity: 0.9;
+}
+#admin_login:active{
+  opacity: 0.9;
+}
+
+
+@media screen and (max-width:740px){
+   .top-title{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 30px;
+      width: 80%;
+      margin: auto;
+   }
+   .top-title h4{
+      font-size:13px;
+   }
+   .img{
+      height: 30px;
+      width: 30px;
+   }
+   .bottom-title-container{
+      background-color: rgb(50, 50, 50);
+      color: lightgrey;
+   }
+   .bottom-title-container div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+   }
+   .bottom-title-container div h1{
+      margin-left: 3px;
+      margin-right: 1%;
+      font-size: 20px;
+   }
+   .login-container{
+      background-color: rgb(234, 234, 234);
+      height: 400px;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .login-container .login-form{
+      height: 170px;
+      border: 1px solid rgb(210, 210, 210);
+      padding: 10px;
+      width: 40%;
+      border-radius: 10px;
+      background-color: rgb(244, 244, 244);
+      box-shadow: 1px 2px 5px 2px lightgrey;
+   }
+   .login-form p{
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 2px;
+   }
+   .bottom-text-container{
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .bottom-text-container h3{
+   font-weight: lighter;
+   font-size: 17px;
+   color: lightgrey;
+   }
+
+   .login-form div{
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      
+   }
+   .login-form div input{
+      height: 100%;
+      width: 100%;
+      padding: 7px;
+      border-radius: 5px;
+      border: 1px solid lightgrey;
+      font-size: 13px;
+   }
+   .button-container{
+      margin-top: 20px;
+   
+   
+   }
+   .button-container button{
+      width: 46%;
+      height: 100%;
+      font-weight: bold;
+      font-size: 13px;
+      border-radius: 3px;
+      border: 1px solid lightgrey;
+      margin: auto;
+
+   }
+
+}
+@media screen and (max-width:560px){
+   .top-title{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 30px;
+      width: 80%;
+      margin: auto;
+   }
+   .top-title h4{
+      font-size:12px;
+   }
+   .img{
+      height: 25px;
+      width: 25px;
+   }
+   .bottom-title-container{
+      background-color: rgb(50, 50, 50);
+      color: lightgrey;
+   }
+   .bottom-title-container div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+   }
+   .bottom-title-container div h1{
+      margin-left: 3px;
+      margin-right: 1%;
+      font-size: 18px;
+   }
+   .bottom-title-container div p{
+      font-size: 12px;
+   }
+   .login-container{
+      background-color: rgb(234, 234, 234);
+      height: 400px;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .login-container .login-form{
+      height: 170px;
+      border: 1px solid rgb(210, 210, 210);
+      padding: 10px;
+      width: 50%;
+      border-radius: 10px;
+      background-color: rgb(244, 244, 244);
+      box-shadow: 1px 2px 5px 2px lightgrey;
+   }
+   .login-form p{
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 2px;
+   }
+   .bottom-text-container{
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .bottom-text-container h3{
+   font-weight: lighter;
+   font-size: 17px;
+   color: lightgrey;
+   }
+
+   .login-form div{
+      height: 25px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      
+   }
+   .login-form div input{
+      height: 80%;
+      width: 80%;
+      padding: 7px;
+      border-radius: 5px;
+      border: 1px solid lightgrey;
+      font-size: 13px;
+   }
+   .button-container{
+      margin-top: 20px;
+      
+   }
+   .button-container button{
+      width: 40%;
+      height: 100%;
+      font-weight: bold;
+      font-size: 12px;
+      border-radius: 3px;
+      border: 1px solid lightgrey;
+      margin: auto;
+
+   }
+
+}
+@media screen and (max-width: 360px){
+   .top-title{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 25px;
+      width: 80%;
+      margin: auto;
+   }
+   .top-title h4{
+      font-size:11px;
+   }
+   .img{
+      height: 20px;
+      width: 20px;
+   }
+   .bottom-title-container{
+      background-color:   rgb(30, 30, 64);
+      color: lightgrey;
+   }
+   .bottom-title-container div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+   }
+   .bottom-title-container div h1{
+      margin-left: 3px;
+      margin-right: 1%;
+      font-size: 15px;
+   }
+   .bottom-title-container div p{
+      font-size: 10px;
+   }
+   .login-container{
+      background-color: rgb(234, 234, 234);
+      height: 400px;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .login-container .login-form{
+      height: 170px;
+      border: 1px solid rgb(210, 210, 210);
+      padding: 10px;
+      width: 60%;
+      border-radius: 10px;
+      background-color: rgb(244, 244, 244);
+      box-shadow: 1px 2px 5px 2px lightgrey;
+   }
+   .login-form p{
+      font-weight: bold;
+      font-size: 10px;
+      margin-bottom: 2px;
+   }
+   .bottom-text-container{
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .bottom-text-container h3{
+   font-weight: lighter;
+   font-size: 16px;
+   color: lightgrey;
+   }
+
+   .login-form div{
+      height: 22px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      
+   }
+   .login-form div input{
+      height: 80%;
+      width: 75%;
+      padding: 7px;
+      border-radius: 5px;
+      border: 1px solid lightgrey;
+      font-size: 13px;
+   }
+   .button-container{
+      margin-top: 20px;
+      
+   }
+   .button-container button{
+      width: 40%;
+      height: 100%;
+      font-weight: bold;
+      font-size: 12px;
+      border-radius: 3px;
+      border: 1px solid lightgrey;
+      margin: auto;
+
+   }
+
+}
+@media screen and (max-width: 255px){
+   .top-title{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 20px;
+      width: 80%;
+      margin: auto;
+   }
+   .top-title h4{
+      font-size:10px;
+   }
+   .img{
+      height: 20px;
+      width: 20px;
+   }
+   .bottom-title-container{
+      background-color:  rgb(30, 30, 64);
+      color: lightgrey;
+   }
+   .bottom-title-container div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+   }
+   .bottom-title-container div h1{
+      margin-left: 3px;
+      margin-right: 1%;
+      font-size: 12px;
+   }
+   .bottom-title-container div p{
+      font-size: 8px;
+   }
+   .login-container{
+      background-color: rgb(234, 234, 234);
+      height: 400px;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .login-container .login-form{
+      height: 170px;
+      border: 1px solid rgb(210, 210, 210);
+      padding: 10px;
+      width: 80%;
+      border-radius: 10px;
+      background-color: rgb(244, 244, 244);
+      box-shadow: 1px 2px 5px 2px lightgrey;
+   }
+   .login-form p{
+      font-weight: bold;
+      font-size: 8px;
+      margin-bottom: 2px;
+   }
+   .bottom-text-container{
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .bottom-text-container h3{
+   font-weight: lighter;
+   font-size: 16px;
+   color: lightgrey;
+   }
+
+   .login-form div{
+      height: 22px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      
+   }
+   .login-form div input{
+      height: 75%;
+      width:100%;
+      padding: 7px;
+      border-radius: 5px;
+      border: 1px solid lightgrey;
+      font-size: 11px;
+   }
+   .button-container{
+      margin-top: 20px; 
+   }
+   .button-container button{
+      width: 30%;
+      height:70%;
+      font-weight: bold;
+      font-size: 12px;
+      border-radius: 3px;
+      border: 1px solid lightgrey;
+      margin: auto;
+
+   }
+
+}

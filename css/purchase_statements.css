@@ -1,0 +1,29 @@
+.form{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 4%;
+   row-gap: 1%;
+}
+.form div{
+   padding: 2px 1px;
+}
+.form div, label{
+   font-size: 13px;
+   color: rgb(47, 47, 47);
+   font-weight: bold;
+
+}
+.form input, select{
+   width: 95%;
+   text-align: center;
+   margin-bottom: 7px;
+   border-radius: 4px;
+   height: 30px;
+   border: 1px solid rgb(137, 137, 137);
+}
+.statement-container{
+   background-color: white;
+   padding: 5px 10px;
+   border: 1px solid lightgrey;
+   border-radius: 3px;
+}

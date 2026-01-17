@@ -1,0 +1,220 @@
+body{
+   margin: 0;
+   padding-top: 130px;
+   background-color: aliceblue;
+   font-family: sans-serif;
+}
+.container{
+   max-width: 1100px;
+   margin: auto;
+}
+.footer{
+    background-color: rgb(1, 1, 27);
+   color: rgb(209, 209, 209);
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.content-title{
+   padding: 6px 10px;
+   background-color: rgb(212, 212, 212);
+   font-size: 14px;
+   border-radius: 3px;
+   color: rgb(81, 81, 81);
+}
+.foote h3{
+   display: flex;
+   font-weight: lighter;
+   font-size: 15px;
+   letter-spacing: 3cm;
+}
+.create-option-body{
+   border-radius: 5px;
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: 20% 1fr;
+   column-gap: 3%;
+}
+.top-title{
+   height: 22px;
+   display: flex;
+   align-items: center;
+   padding: 2px 5px;
+   background-color: rgb(131, 131, 144);
+}
+.top-title p{
+   color: rgb(247, 247, 247);
+   font-size: 13px;
+}
+.options{
+   height: 110px;
+   padding: 10px 5px; 
+   background-color: white;
+}
+.options div{
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.options div img{
+   height: 17px;
+   width: 16px;
+   margin-right: 4px;
+}
+.options div .link{
+  font-size: 13px;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+
+}
+.options div .link:hover{
+   color: rgb(198, 49, 23);
+}
+.form-container{
+   height: 130px;
+   background-color: white;
+   padding: 10px 15px;
+}
+.form{
+   width: 100%;
+   column-gap: 10px;
+}
+.input-container{
+   display: grid;
+   grid-template-columns: 46% 46%;
+   padding: 10px 5px;
+   column-gap: 5%;
+}
+.input-container div{
+   width: 100%;
+
+}
+ .styled-input, .input-container div input{
+   width: 100%;
+   height: 20px;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   padding: 5px 8px;
+   font-size: 17px;
+   margin-top: 5px;
+}
+
+.input-container div label{
+   font-size: 13px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.input-container div select{
+   font-size: 14px;
+   height: 55%;
+   padding: 5px 10px;
+}
+.styled-input:focus{
+   background-color: rgb(245, 249, 253);
+   border: 1px solid lightgrey;
+}
+.styled-input::placeholder{
+  color: rgb(190, 189, 189);
+  font-size: 14px;
+}
+.button-container{
+   width: 12%;
+   border-radius: 3px;
+   margin-left: 0.5%;
+}
+.create-btn{
+   height: 100%;
+   width: 100%;
+   border-radius: 3px;
+   border: 1px solid lightgrey;
+   padding: 5px 5px;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(50, 50, 153);;
+}
+.create-btn:hover{
+   background-color: rgb(31, 31, 115);
+   cursor: pointer;
+}
+.create-btn:active{
+   opacity: 0.9;
+}
+.medecine-name-list{
+   color: rgb(77, 77, 77);
+   font-size: 14px;
+   margin-top: 25px;
+   margin-left: 10px;
+}
+.table-container{
+   margin-top: 5px;
+   padding-bottom: 15px;
+}
+.table{
+   border: 1px solid lightgrey;
+   width: 97%;
+   background-color: white;
+   border-collapse: collapse;
+   
+}
+.table thead tr{
+   height: 3px;
+   align-items: center;
+   justify-content: space-between;
+   width: 95%;
+   background: linear-gradient(rgb(255, 255, 255), rgb(210, 210, 210));
+   border-bottom: 2px solid rgb(65, 27, 27);
+   padding: 8px 10px;
+   height: 35px;
+   color: rgb(55, 37, 37);
+}
+.table thead tr th{
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid rgb(208, 208, 208);
+}
+
+.table tbody tr{
+   justify-content: space-between;
+   width: 95%;
+}
+
+.row{
+  height: 30px;
+  padding: 5px 5px;
+}
+.table tbody tr td{
+   text-align: left;
+   font-size: 15px;
+   color: rgb(56, 56, 56);
+   padding: 8px 10px;
+  border: 0.5px solid lightgrey;
+}
+.table tbody tr:hover{
+   background-color:lightgrey;
+}
+#centered{
+   text-align: center;
+}
+.row:nth-child(even){
+   background-color: rgb(209, 232, 242);
+}
+.delete_btn{
+   padding: 5px 15px;
+   color: white;
+    background-color:rgb(248, 61, 61);
+   border-radius: 3px;
+   font-size: 13px;
+   transition: 0.2s;
+   color: rgb(255, 255, 255);
+}
+.delete_btn:hover{
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+.delete_btn:active{
+   opacity: 0.6;
+   background-color: red;
+}

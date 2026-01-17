@@ -1,0 +1,43 @@
+.form-conatiner{
+   padding: 8px 12px;
+   background-color: white;
+}
+.form label{
+   color: #5a5a5a;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.button-submit{
+   border-radius: 3px;
+   border: 1px solid lightgrey;
+   padding: 5px 5px;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(52, 146, 29);
+   margin-top: 7px;
+   padding: 6px 12px;
+}
+.button-submit:hover{
+   background-color: rgb(43, 98, 40);
+   cursor: pointer;
+}
+.button-submit:active{
+   opacity: 0.9;
+}
+
+.input-create{
+   width: 50%;
+   height: 22px;
+   margin-top: 5px;
+   border: 1px solid rgb(199, 199, 199);
+   border-radius: 5px;
+   padding: 3px 10px;
+
+}
+.medicine-list{
+   color: #5a5a5a;
+   font-size: 13px;
+   font-weight: bold;
+   margin-top: 20px;
+}

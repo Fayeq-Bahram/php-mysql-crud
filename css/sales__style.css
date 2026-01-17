@@ -1,0 +1,243 @@
+.grid{
+   display: grid;
+   grid-template-columns: 22% 27% 1fr;
+   column-gap: 2%;
+   border: 1p solid red;
+}
+
+.grid div label{
+   color: rgb(50, 50, 50);
+   font-size: 13px;
+   font-weight: bold;
+}
+.grid2 div label{
+   color:rgb(50, 50, 50);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.grid2{
+   margin-top: 7px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 3%;
+   padding: 5px 10px;
+  
+}
+.input{
+   width: 95%;
+   padding: 1px 5px;
+   height: 25px;
+   margin-top: 3px;
+   border-radius: 3px;
+   border: 0.5px solid lightgrey;
+}
+.input:focus{
+   background-color: rgb(241, 241, 241);
+}
+.button-container{
+   padding: 3px 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.add-button{
+   width: 100%;
+   padding: 4PX 10px;
+   width: 70%;
+   font-weight: lighter;
+   color: white;
+   background-color: rgb(83, 83, 219);
+   transition: 0.3s;
+   border: 1px solid blue;
+   border-radius: 3px;
+}
+.add-button:hover{
+    background-color:  rgb(13, 13, 142);
+}
+.add-button:active{
+   opacity: 0.2;
+}
+.output-table{
+   border: 1px solid rgb(210, 210, 210);
+   border-collapse: collapse;
+   background-color: white;
+
+
+}
+.output-table thead tr{
+   border: 1px solid blue;
+}
+.output-table thead tr th{
+   border: 1px solid lightgrey;
+   height: 28px;
+   padding: 5px 4px;
+   font-size: 14px;
+}
+.output-table tbody tr td{
+   border: 0.5px solid lightgrey;
+   padding: 7px 10px;
+   font-size: 14px;
+   text-align: center;
+}
+
+.output-form{
+   margin-top: 16px;
+   border: 1px solid lightgrey;
+   display: flex;
+   padding: 10px 10px;
+   background-color: white;
+   column-gap: 2%;
+}
+.sell-button{
+   height: 30px;
+   font-weight: lighter;
+   color: white;
+   background-color: rgb(28, 173, 8);
+   transition: 0.3s;
+   border-radius: 2px;
+   border: 1px solid rgb(16, 169, 19)
+  
+}
+.output-form label{
+   color: rgb(50, 50, 50);
+   font-size: 14px;
+}
+.output-form input{
+   height: 22px;
+   border: 0.5px solid rgb(54, 178, 9);
+   padding: 5px 10px;
+   border-radius: 5px;
+   width: 95%;
+}
+
+.sell-button:hover{
+   background-color: darkgreen;
+}
+.sell-button:active{
+   opacity: 0.3;
+}
+
+.print-btn{
+   padding: 3px 10px;
+   background-color: rgb(253, 230, 139);
+   border: 1px solid grey;
+   border-radius: 3px;
+   color: rgb(7, 7, 7);
+   transition: 0.2s;
+   font-weight: bolder;
+   font-size: 12px;
+  
+}
+.print-btn:hover{
+    background-color: rgb(233, 206, 98);
+   cursor: pointer;
+}
+.print-btn:active{
+  opacity: 0.3;
+}
+
+table{
+   width: 90%;
+   border-collapse: collapse;
+   padding: 15px 15px;
+   margin-left: 10px;
+}
+table thead{
+  height: 15px;
+  align-items: center;
+  border: 1px solid yellow;
+
+}
+table tr{
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+table thead tr td{
+     padding: 5px 10px;
+}
+tbody td{
+   padding: 5px 5px;
+   font-size: 13px;
+}
+#heading{
+   color: rgb(66, 66, 67);
+   font-weight: bold;
+   font-size: 13px;
+   margin-left: 35px;
+}
+
+#outPut_row td{
+   font-size: 12px;
+   font-weight: bold;
+   background-color: rgb(64, 64, 139);
+   color: white;
+}
+#row_out td{
+   padding: 10px 10px;
+}
+#invoice-title{
+   color: blue;
+   text-align: left;
+   font-size: 40px;
+}
+.invoice_container{
+   margin: 8px;
+   border-top: 2px solid darkblue;
+
+}
+#top-section{
+   margin-bottom: 10px;
+}
+#invoice_description{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 5%;
+   margin-top: 15px;
+
+}
+#invoice_description div{
+   height: 200px;
+   
+}
+#farmacy-info p{
+   margin-top: 5px;
+   font-size: 13px;
+   color: rgb(35, 35, 35);
+}
+#farmacy-info h4{
+   font-size: 14px;
+}
+#index{
+   font-weight: bold;
+}
+#name{
+   font-weight: lighter;
+}
+#outTotal{
+   font-weight: bold;
+}
+
+#rtd{
+   font-size: 14px;
+   padding: 13px 5px;
+}
+
+.cancel-button{
+   font-weight: lighter;
+   color: white;
+    background-color: rgb(146, 139, 17);
+   transition: 0.3s;
+   border-radius: 2px;
+   text-decoration: none;
+   padding: 7px 25px;
+   border-radius: 4px;
+   font-size: 13px;
+
+
+}
+.cancel-button:hover{
+   background-color: rgb(89, 85, 8);
+}
+.cancel-button:active{
+   opacity: 0.4;
+}

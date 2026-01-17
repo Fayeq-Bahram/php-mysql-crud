@@ -1,4 +1,4 @@
-# php-mysql-crud
+# Farmacy Management System
 CRUD Application Using PHP &amp; MYSQL
 
 A simple CRUD (Create, Read, Update, Delete) web application built using PHP and MYSQL.

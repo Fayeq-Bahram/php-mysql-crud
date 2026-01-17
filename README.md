@@ -1,5 +1,5 @@
 # Farmacy Management System
-CRUD Application Using PHP &amp; MYSQL
+CRUD Application Using HTML,CSS, JavaScript, PHP &amp; MYSQL
 
 A simple CRUD (Create, Read, Update, Delete) web application built using PHP and MYSQL.
 
